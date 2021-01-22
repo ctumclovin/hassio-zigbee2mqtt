@@ -48,7 +48,8 @@
       "channel": 11,
       "network_key": [1, 3, 5, 7, 9, 11, 13, 15, 0, 2, 4, 6, 8, 10, 12, 13],
       "availability_blocklist": [],
-      "availability_passlist": []
+      "availability_passlist": [],
+      "ikea_ota_use_test_url": true
     },
     "device_options": {},
     "blocklist": [],
@@ -119,6 +120,7 @@
       "timestamp_format": "str?",
       "baudrate": "int?",
       "rtscts": "bool?",
+      "ikea_ota_use_test_url": "bool?",
       "soft_reset_timeout": "int?",
       "adapter_concurrent": "int?",
       "adapter_delay": "int?",
